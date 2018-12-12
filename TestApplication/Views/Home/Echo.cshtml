@@ -1,0 +1,5 @@
+﻿@{
+   var echoModel= (EchoClient.Models.EchoModel)ViewData["Echo"];
+}
+<h2>@echoModel.Echo</h2>
+<h3>@echoModel.DateTimeStamp.ToString()</h3>
